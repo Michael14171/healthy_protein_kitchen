@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meine Protein-Rezeptesammlung</title>
+    <style>
+        /* Grundlegendes CSS für ein ansprechendes Layout */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+            color: #333;
+        }
+        header {
+            background-color: #5d9ab2;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #333;
+            overflow: hidden;
+        }
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .container {
+            padding: 2rem;
+        }
+        .kategorie {
+            margin-bottom: 2.5rem;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 1.5rem;
+        }
+        .kategorie h2 {
+            color: #5d9ab2;
+        }
+        .rezept-liste {
+            display: flex;
+            gap: 1.5rem;
+            flex-wrap: wrap;
+        }
+        .rezept-item {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 1rem;
+            text-align: center;
+            width: 200px;
+        }
+        .rezept-item img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 4px;
+        }
+        .rezept-item a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Meine Protein - Rezeptesammlung für Proteinfasten</h1>
+    </header>
+
+    <nav>
+        <a href="#Kleine Mahlzeit süß">Kleine Mahlzeit süß</a>
+        <a href="#Kleine Mahlzeit pikant">Kleine Mahlzeit pikant</a>
+        <a href="#Große Mahlzeit süß">Große Mahlzeit süß</a>
+        <a href="#Große Mahlzeit pikant">Große Mahlzeit pikant</a>
+        <a href="#Snacks und Drinks">Snacks und Drinks</a>
+    </nav>
+
+    <div class="container">
+        <h2>Willkommen auf meiner Seite!</h2>
+        <p>Hier findest du eine Sammlung meiner liebsten Protein-Rezepte. Viel Spaß beim Stöbern und Nachkochen!</p>
+
+        <section id="Kleine Mahlzeit süß" class="kategorie">
+            <h2>Kleine Mahlzeit süß</h2>
+                <div class="rezept-liste">
+                <div class="rezept-item">
+                    <img src="https://via.placeholder.com/150" alt="Kleine Mahlzeit süß 1">
+                    <a href="rezept1.html">Bruschetta mit Tomaten</a>
+                </div>
+                <div class="rezept-item">
+                    <img src="https://via.placeholder.com/150" alt="Kleine Mahlzeit süß 2">
+                    <a href="rezept2.html">Gefüllte Champignons</a>
+                </div>
+                <div class="rezept-item">
+                    <img src="https://via.placeholder.com/150" alt="Kleine Mahlzeit süß 3">
+                    <a href="rezept3.html">Caprese-Spieße</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="Kleine Mahlzeit pikant" class="kategorie">
+            <h2>Kleine Mahlzeit pikant</h2>
+            <div class="rezept-liste">
+                <div class="rezept-item">
+                    <img src="https://via.placeholder.com/150" alt="Kleine Mahlzeit pikant 1">
+                    <a href="rezept4.html">Kürbiscremesuppe</a>
+                </div>
+                <div class="rezept-item">
+                    <img src="https://via.placeholder.com/150" alt="Kleine Mahlzeit pikant 2">
+                    <a href="rezept5.html">Linsensuppe</a>
+                </div>
+                <div class="rezept-item">
+                    <img src="https://via.placeholder.com/150" alt="Kleine Mahlzeit pikant 3">
+                    <a href="rezept6.html">Tomatensuppe mit Reis</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="Große Mahlzeit süß" class="kategorie">
+            <h2>Große Mahlzeit süß</h2>
+            <div class="rezept-liste">
+                <div class="rezept-item">
+                    <img src="https://via.placeholder.com/150" alt="Große Mahlzeit süß 1">
+                    <a href="rezept7.html">Spaghetti Carbonara</a>
+                </div>
+                <div class="rezept-item">
+                    <img src="https://via.placeholder.com/150" alt="Große Mahlzeit süß 2">
+                    <a href="rezept8.html">Wiener Schnitzel</a>
+                </div>
+                <div class="rezept-item">
+                    <img src="https://via.placeholder.com/150" alt="Große Mahlzeit süß 3">
+                    <a href="rezept9.html">Gemüsecurry</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="Große Mahlzeit pikant" class="kategorie">
+            <h2>Große Mahlzeit pikant</h2>
+            <div class="rezept-liste">
+                <div class="rezept-item">
+                    <img src="https://via.placeholder.com/150" alt="Große Mahlzeit pikant 1">
+                    <a href="rezept10.html">Tiramisu</a>
+                </div>
+                <div class="rezept-item">
+                    <img src="https://via.placeholder.com/150" alt="Große Mahlzeit pikant 2">
+                    <a href="rezept11.html">Mousse au Chocolat</a>
+                </div>
+                <div class="rezept-item">
+                    <img src="https://via.placeholder.com/150" alt="Große Mahlzeit pikant 3">
+                    <a href="rezept12.html">Apfelstrudel</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="Snacks und Drinks" class="kategorie">
+            <h2>Snacks und Drinks</h2>
+            <div class="rezept-liste">
+                <div class="rezept-item">
+                    <img src="https://via.placeholder.com/150" alt="Snacks und Drinks 1">
+                    <a href="rezept13.html">Hausgemachte Limonade</a>
+                </div>
+                <div class="rezept-item">
+                    <img src="https://via.placeholder.com/150" alt="Snacks und Drinks 2">
+                    <a href="rezept14.html">Hugo Cocktail</a>
+                </div>
+                <div class="rezept-item">
+                    <img src="https://via.placeholder.com/150" alt="Snacks und Drinks 3">
+                    <a href="rezept15.html">Ingwer-Tee</a>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Deine Rezeptesammlung</p>
+    </footer>
+
+</body>
+</html>
